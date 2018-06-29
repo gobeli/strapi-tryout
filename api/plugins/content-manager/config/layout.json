@@ -1,0 +1,19 @@
+{
+  "books": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "author": {
+        "appearance": ""
+      }
+    }
+  },
+  "genre": {
+    "attributes": {
+      "genre": {
+        "appearance": ""
+      }
+    }
+  }
+}

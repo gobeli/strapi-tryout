@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "books",
+  "info": {
+    "name": "book",
+    "description": "Bücher"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "genre": {
+      "model": "genre",
+      "via": "books"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}
